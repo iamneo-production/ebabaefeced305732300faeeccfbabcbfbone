@@ -4,5 +4,24 @@ body{
     background-color: #f2f2f2;
     display: flex;
     justify-content:center;
-    height:100
+    height:100vh;
+}
+.container{
+    text-align: center;
+}
+.moving-text{
+    font-size: 24px;
+    font-weight:bold;
+    color: #007bff;
+    position:relative;
+    animation: moveText 3s Linear infinite;
+}
+@keyframes moveText{
+    0%{
+        transform: translateX(0);
+        opacity: 0;
+    }
+    50%{
+        
+    }
 }
